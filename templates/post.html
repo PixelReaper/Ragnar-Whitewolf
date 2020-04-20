@@ -1,0 +1,65 @@
+<html>
+  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Pixel Reaper | {{ PTITLE }}</title>
+    <link rel="icon" href="https://gitea.com/avatars/7ec68e9ca43c5188e3847f04774b2ca8" type="image/png">
+	  <link rel="stylesheet" type="text/css" href="/static/font/PICO-8.font.css">
+	  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	</head>
+  <body>
+   <div class="container">
+		<header>
+			<div class="logo">
+				<img src="https://gitea.com/avatars/7ec68e9ca43c5188e3847f04774b2ca8" width="150" alt="">
+				<a href="/">Pixel Reaper</a>
+			</div>
+
+			<nav>
+				<a href="/">[HOME]</a>
+				<a href="/proyectos">[PROYECTOS]</a>
+				<a href="/sobre-mi">[SOBRE MI]</a>
+        <a href="/donar">Ç</a>
+			</nav>
+		</header>
+
+		<section class="main">
+      <article>
+       <img src="{{ IMAGE }}">
+       <h1>{{ TITLE }}</h1>
+       <p>[ {{ DATE }} ]</p>
+       <hr>
+			 {{ CONTENT|markdown }}
+      </article>
+		</section>
+
+		<aside>
+			<div class="widget">
+				<div class="picture">
+					<iframe src="/static/widgets/widget-1.html" style="border:0px #ffffff none;" name="widget1" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="100%" width="100%%" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="widget">
+				<div class="picture">
+					<iframe src="/static/widgets/widget-2.html" style="border:0px #ffffff none;" name="widget2" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="100%" width="100%%" allowfullscreen></iframe>
+				</div>
+			</div>
+		</aside>
+
+		<footer>
+			<section class="links">
+				<a href="/">[HOME]</a>
+				<a href="/proyectos">[PROYECTOS]</a>
+				<a href="/sobre-mi">[SOBRE MI]</a>
+        <a href="/donar">DONARÇ</a>
+			</section>
+
+			<div class="social">
+				<a target="_blank" href="https://gitea.com/PixelReaper_">[GITEA]</a>
+				<a target="_blank" href="https://twitter.com/PixelReaper_">[TWITTER]</a>
+				<a target="_blank" href="https://mastodon.librelabucm.org/@pixelreaper">[MASTODON]</a>
+			</div>
+		</footer>
+	</div>
+  </body>
+</html>

@@ -7,6 +7,7 @@ authors = ["Ragnar <ragnarwhitewolf@pm.me>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 flask = "^1.1"
+Flask-Misaka = "^1.0"
 
 [tool.poetry.dev-dependencies]
 

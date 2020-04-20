@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Cave Story';
+    src: url('Cave-Story.eot');
+    src: url('Cave-Story.eot?#iefix') format('embedded-opentype'),
+        url('Cave-Story.woff2') format('woff2'),
+        url('Cave-Story.woff') format('woff'),
+        url('Cave-Story.svg#Cave-Story') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

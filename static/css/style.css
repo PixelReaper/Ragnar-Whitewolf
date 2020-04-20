@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PICO-8 wide";
+  font-style: normal;
+	line-height:1.6;
+}
+p {
+	font-weight:11px;
+	line-height: 1.5;
+}
+h2 {
+	font-weight:21px;
+}
+.container {
+	background:#ccc;
+	width:90%;
+	height:100%;
+	margin:auto;
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+body {
+	background:#000000;
+	background:url(/static/img/wallpaper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+	background:#29ADFF;
+	width:100%;
+	height:13%;
+	padding:20px;
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+header .logo {
+	color:#FFF1E8;
+	font-size:30px;
+}
+header .logo img {
+	width:50px;
+	vertical-align: top;
+}
+header .logo a {
+	color:#FFF1E8;
+	text-decoration: none;
+	line-height:50px;
+}
+header nav {
+	width:50%;
+	/* Flexbox */
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	border:1px;
+	border-color:#FFF1E8;
+}
+header nav a {
+	background:#29ADFF;
+	color:#FFF1E8;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	/* Flexbox */
+	flex-grow:1;
+}
+header nav a:hover {
+	background:#1D2B53;
+}
+.main {
+	background:#FFF1E8;
+	padding:20px;
+	flex:1 1 70%;
+	/*flex:1;*/
+}
+.blankspace {
+	height: 100%;
+}
+.main article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+.main article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+aside {
+	background:#FFEC27;
+	padding:10px;
+	/*FLEX*/
+	flex:1 1 30%;
+	/*flex:0 0 300px;*/
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+	align: center;
+}
+aside .widget {
+	background: #e6d200;
+	height:160px;
+	margin:5px;
+	align: center;
+}
+footer {
+	background:#FF004D;
+	width: 100%;
+	height:10%;
+	padding:20px;
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+footer .links {
+	background:#FF004D;
+	display:flex;
+	flex-wrap:wrap;
+	border:1px;
+	border-color:#FF004D;
+}
+footer .links a {
+	flex-grow:1;
+	color:#FFF1E8;
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+footer .links a:hover {
+	background:#e60045;
+}
+footer .social {
+	background:#FF004D;
+	border:1px;
+	border-color:#FF004D;
+}
+footer .social a {
+	color:#FFF1E8;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+footer .social a:hover {
+	background:#e60045;
+@media screen and (max-width: 800px) {
+	.contenedor {
+		flex-direction:column;
+	}
+	header {
+		flex-direction:column;
+		padding:0;
+	}
+	header .logo {
+		margin:20px 0;
+	}
+	header nav {
+		width: 100%;
+	}
+	aside {
+		flex-direction:row;
+		flex:0;
+	}
+	aside .widget {
+		flex-grow:1;
+	}
+}
+@media screen and (max-width: 600px) {
+	aside {
+		flex-direction:column;
+	}
+	footer {
+		justify-content:space-around;
+	}
+}

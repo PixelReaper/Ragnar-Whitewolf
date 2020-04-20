@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ragnar_whitewolf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ragnarwhitewolf.top.mx
+  * I am ragnar_whitewolf (https://keybase.io/ragnar_whitewolf) on keybase.
+  * I have a public key ASCWp3EJaph_2nOIbRdPO4LQNJMBDIkM5qbQfAotWLPKywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012096a771096a987fda73886d174f3b82d03493010c890ce6a6d07c0a2d58b3cacb0a",
+      "host": "keybase.io",
+      "kid": "012096a771096a987fda73886d174f3b82d03493010c890ce6a6d07c0a2d58b3cacb0a",
+      "uid": "87496fc4d93172e8c83cd3548c85e319",
+      "username": "ragnar_whitewolf"
+    },
+    "merkle_root": {
+      "ctime": 1587373183,
+      "hash": "0ee7d0c5f4dda0b9c084557d41ff5cdafb133f17f17b54b82f48aa960d60e778b610fe155f6908427f68bf6fc2daf68ff428fe7c2ce91b19199800bc992ceed2",
+      "hash_meta": "c0ec6661b50a82ca3a8dde87786fdcc47b1b855150d04aa7233f58e0080d049b",
+      "seqno": 15985833
+    },
+    "service": {
+      "entropy": "7MAe7typTX36F2b61v704SX5",
+      "hostname": "ragnarwhitewolf.top.mx",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587373200,
+  "expire_in": 504576000,
+  "prev": "c640e4585e3c6e93c6dea8694b6acc6bddafba9500278260f5e73c1a6b6a9175",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglqdxCWqYf9pziG0XTzuC0DSTAQyJDOam0HwKLVizyssKp3BheWxvYWTESpcCH8QgxkDkWF48bpPG3qhpS2rMa92vupUAJ4Jg9ec8GmtqkXXEIEFAGwNuCTe35mRl0BbYxTer4uB/acwi2PL/oG/9PD5LAgHCo3NpZ8RAI4uQ2ee4jotISJPT6mL+o4TuV/ltDq1cJpNRSSGxImp5lAsRwCIDMYNgIirtb2O6C7tqDSIoDBe2i52eHfZNB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDeWl7dGOonGM2WC8qDkgDcS7MzEPfQdArWaQD/a9495o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ragnar_whitewolf
+
+==================================================================

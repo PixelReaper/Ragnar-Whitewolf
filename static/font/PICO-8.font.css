@@ -1,0 +1,11 @@
+	  @font-face {
+    font-family: 'PICO-8 wide';
+    src: url('PICO-8-wide.eot');
+    src: url('PICO-8-wide.eot?#iefix') format('embedded-opentype'),
+        url('PICO-8-wide.woff2') format('woff2'),
+        url('PICO-8-wide.woff') format('woff'),
+        url('PICO-8-wide.ttf') format('truetype'),
+        url('PICO-8-wide.svg#PICO-8-wide') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
